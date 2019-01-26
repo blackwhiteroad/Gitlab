@@ -1,0 +1,15 @@
+gitlab官网项目展示页:https://gitlab.com/gitlab-org/gitlab-ce
+
+gitlab官网首页:https://about.gitlab.com/
+
+gitlab搭建详细过程(涉及具体:git,nginx,redis等):https://www.cnblogs.com/Alex-qiu/p/7845626.html
+
+gitlab搭建(已集成git,nginx,redis等):https://www.cnblogs.com/pliybird/p/6026248.html
+
+gitlab官网软件包下载网址:https://packages.gitlab.com/gitlab/gitlab-ce
+
+gitlab的简易搭建:https://www.jianshu.com/p/947eaa90d6cf
+
+gitlalb的搭建心得:https://www.linuxidc.com/Linux/2017-12/149766.htm
+
+gitlab官网详细部署教程:https://about.gitlab.com/install/#centos-7
