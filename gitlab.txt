@@ -1,11 +1,12 @@
 1.基于docker容器部署gitlab
 yum -y install docker-engine
-
-
-
-
-
-
-
-
-
+systemctl restart docker
+systemctl enable docker
+ifconfig
+docker version
+docker load < gitlab_zh.tar
+sed -i 's/#Port 22/Port 2022/g' /etc/ssh/sshd_config
+systemctl restart sshd
+docker run -d -h gitlabgit --name gitlabgit -p 443:443 -p 80:80 -p 22:22 --restart always -v /srv/gitlab/config:/etc/gitlab -v /srv/gitlab/logs:/var/log/gitlab -v /srv/gitlab/data:/var/opt/gitlab gitlab_zh:latest
+docker ps
+http://192.168.5.2/ #需要等待一段时间后才能正常访问gitlab页面
