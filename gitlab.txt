@@ -1,0 +1,11 @@
+1.基于docker容器部署gitlab
+yum -y install docker-engine
+
+
+
+
+
+
+
+
+
